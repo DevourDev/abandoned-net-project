@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6ca4071a2fc22419ecaf5e2b42dbc6, type: 3}
+  m_Name: Fortress Unit Object
+  m_EditorClassIdentifier: 
+  _databaseElementId: 1
+  _unitName:
+    _translations:
+    - _language: {fileID: 11400000, guid: 055bffceba47cec44ac67a5378d6d9ec, type: 2}
+      _text: Fortress
+    - _language: {fileID: 11400000, guid: fd7cb952cab16b94291671f8097cd3a1, type: 2}
+      _text: "\u0417\u0430\u043C\u043E\u043A"
+  _description:
+    _translations:
+    - _language: {fileID: 11400000, guid: fd7cb952cab16b94291671f8097cd3a1, type: 2}
+      _text: "\u0421\u0430\u043C\u044B\u0439 \u0433\u043B\u0430\u0432\u043D\u044B\u0439
+        \u0434\u043E\u043C\u0438\u043A!"
+    - _language: {fileID: 11400000, guid: 055bffceba47cec44ac67a5378d6d9ec, type: 2}
+      _text: The most important building!
+  _previewImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  _serverSidePrefab: {fileID: 3049217366745832731, guid: 3edc191e53f142f469e05df051e8dc6d,
+    type: 3}
+  _clientSidePrefab: {fileID: 5369157959358303172, guid: 9ec9fa4106136f8408275534b5e64cd0,
+    type: 3}
+  _coinsCost: 0
+  _tier: 0
+  _battleStats:
+    _defensive:
+      _armorValue: 10
+      _armorType: {fileID: 11400000, guid: 1f7f4544d78d96840a4e5e89f75dfa20, type: 2}
+  _commonStats:
+    _dynamicStats:
+    - _stat: {fileID: 11400000, guid: 65142ab041530194a9dfa874f266f18c, type: 2}
+      _max: 10000
+      _min: 1
+      _regeneration: 5
+    - _stat: {fileID: 11400000, guid: b42064d8709de234e97f62130686504c, type: 2}
+      _max: 1000
+      _min: 0
+      _regeneration: 10
+    _lethalDynamicStat: {fileID: 11400000, guid: 65142ab041530194a9dfa874f266f18c,
+      type: 2}
+    _visionRange: 12
+    _moveSpeed: 0
+    _rotationSpeed: 0
+    _acceleration: 0
+  _defaultState: {fileID: 11400000, guid: b1a765579b03cd24494352e1284df5d1, type: 2}
+  _abilities:
+  - {fileID: 11400000, guid: 6fbd2703da97c9441ad25bd1440e59cc, type: 2}

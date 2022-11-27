@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83df2dd934965c4f93d4f70b8c86d40, type: 3}
+  m_Name: Teams Database Object
+  m_EditorClassIdentifier: 
+  _resetIDs: 0
+  _unsortedElements: []
+  _sortedElementsCount: 2
+  _sortedElements:
+  - {fileID: 11400000, guid: f378d193a35f29244b6a6e3dcb32a072, type: 2}
+  - {fileID: 11400000, guid: f4b76b7c49b24a64d82433ae0f494eba, type: 2}

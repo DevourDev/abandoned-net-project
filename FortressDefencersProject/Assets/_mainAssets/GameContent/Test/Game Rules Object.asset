@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4eeff719e13e149a277df6c57e9c9d, type: 3}
+  m_Name: Game Rules Object
+  m_EditorClassIdentifier: 
+  _damageCalculationRule: {fileID: 11400000, guid: 38593ee4c6cb20a42a59e14dde10ebbc,
+    type: 2}
+  _unitsInRangeRule: {fileID: 11400000, guid: c4895ecf5c64c0847a6d0bc608fe27b2, type: 2}
+  _eliminationHandler: {fileID: 11400000, guid: 6251c31c91ffac643b7aa90a4c4ee42b,
+    type: 2}
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 384
+  _unitsLayer:
+    serializedVersion: 2
+    m_Bits: 32832
+  _abilitiesDatabase: {fileID: 11400000, guid: e03be978d0a443b48a3dc3ca97556362, type: 2}
+  _unitsDatabase: {fileID: 11400000, guid: 41f3148546f431d4f95943dda3da87cc, type: 2}
+  _dynamicStatsDatabase: {fileID: 11400000, guid: 3e58a539fe6c07d479f1e3a79a95b14f,
+    type: 2}
+  _unitStatesDatabase: {fileID: 11400000, guid: 5f73d0c588060894fbe677f6bd027992,
+    type: 2}

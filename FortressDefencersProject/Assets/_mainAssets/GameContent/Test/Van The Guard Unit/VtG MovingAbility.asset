@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5604c05ae432366498507cf7535c0d17, type: 3}
+  m_Name: VtG MovingAbility
+  m_EditorClassIdentifier: 
+  _databaseElementId: 2
+  _targetType: 1
+  _castDistance: 0
+  _cooldownStartingStage: 3
+  _cooldown: 0
+  _readyFromStart: 1
+  _stagesSettings:
+  - _stage: 3
+    _duration: 0
+    _nonConstantDuration: 0
+    _costs: []
+    _serverSideActions:
+    - {fileID: 11400000, guid: 7a857abd2aca3ae4fbd56b6a6ef24239, type: 2}
+    _clientSideActions: []
+  - _stage: 4
+    _duration: 0
+    _nonConstantDuration: 1
+    _costs: []
+    _serverSideActions:
+    - {fileID: 11400000, guid: 1fad750f988a3c24d9aeeac64d05c63f, type: 2}
+    _clientSideActions: []
+  - _stage: 7
+    _duration: 0
+    _nonConstantDuration: 0
+    _costs: []
+    _serverSideActions:
+    - {fileID: 11400000, guid: bd1382ba23dc17640ba9c7f5eb40bba8, type: 2}
+    _clientSideActions: []
+  _hasPassiveActions: 0

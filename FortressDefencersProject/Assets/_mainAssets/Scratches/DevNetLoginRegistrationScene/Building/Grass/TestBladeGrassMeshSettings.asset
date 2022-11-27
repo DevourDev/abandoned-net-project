@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0796f573b2bb28e4c83e30d3f378ee05, type: 3}
+  m_Name: TestBladeGrassMeshSettings
+  m_EditorClassIdentifier: 
+  SourceMesh: {fileID: 4300000, guid: 5722e0478c989b041b40fb467c35b85d, type: 2}
+  SourceSubMeshIndex: 0
+  Scale: {x: 1, y: 1, z: 1}
+  Rotation: {x: 0, y: 0, z: 0}
+  RandomOffset: {x: 0.07, y: 0.13, z: 0.19}
+  NumBladeSegments: 3
+  Curvature: 3
+  MaxBendAngle: 30
+  Height: 1
+  HeightVariance: 0.1
+  Width: 0.5
+  WidthVariance: 0.05

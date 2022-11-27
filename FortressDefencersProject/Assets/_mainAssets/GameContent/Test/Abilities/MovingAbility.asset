@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5604c05ae432366498507cf7535c0d17, type: 3}
+  m_Name: MovingAbility
+  m_EditorClassIdentifier: 
+  _databaseElementId: 0
+  _targetType: 1
+  _castDistance: 0
+  _cooldownStartingStage: 3
+  _cooldown: 0
+  _readyFromStart: 1
+  _stagesSettings:
+  - _stage: 3
+    _duration: 0
+    _nonConstantDuration: 0
+    _costs:
+    - _stat: {fileID: 11400000, guid: b42064d8709de234e97f62130686504c, type: 2}
+      _amount: 20
+    _serverSideActions:
+    - {fileID: 11400000, guid: b8c515b888a5df34c92c7181ba622e42, type: 2}
+    _clientSideActions: []

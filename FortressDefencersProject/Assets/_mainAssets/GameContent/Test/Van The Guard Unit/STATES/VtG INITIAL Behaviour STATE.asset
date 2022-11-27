@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63be12d8d7fdee4a905c3c061b53b27, type: 3}
+  m_Name: VtG INITIAL Behaviour STATE
+  m_EditorClassIdentifier: 
+  _databaseElementId: 12
+  _enteringServerSideActions: []
+  _stateTransitions:
+  - _conditionsBlock:
+      _checkingMode: 0
+      _conditions:
+      - {fileID: 11400000, guid: 504c4f2953debd5449e1548498471522, type: 2}
+    _succeedState: {fileID: 11400000, guid: f267921f1cd2f9145a6ff15bf699675d, type: 2}
+    _hasFailureState: 1
+    _failureState: {fileID: 11400000, guid: 6b657de580c2bec4c9e991a00cb9bc60, type: 2}
+  _stayingServerSideActions: []
+  _enteringClientSideActions: []
+  _stayingClientSideActions: []

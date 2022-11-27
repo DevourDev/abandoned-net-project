@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6ca4071a2fc22419ecaf5e2b42dbc6, type: 3}
+  m_Name: Quacker Unit Object
+  m_EditorClassIdentifier: 
+  _databaseElementId: 2
+  _unitName:
+    _translations:
+    - _language: {fileID: 11400000, guid: fd7cb952cab16b94291671f8097cd3a1, type: 2}
+      _text: "\u041A\u0432\u0430\u043A\u0435\u0440"
+    - _language: {fileID: 11400000, guid: 055bffceba47cec44ac67a5378d6d9ec, type: 2}
+      _text: Quacker
+  _description:
+    _translations:
+    - _language: {fileID: 11400000, guid: fd7cb952cab16b94291671f8097cd3a1, type: 2}
+      _text: "\u041D\u0443 \u043A\u0432\u0430\u043A\u0430\u0435\u0442 \u0442\u043E\u0432\u0430\u0440\u0438\u0449..."
+    - _language: {fileID: 11400000, guid: 055bffceba47cec44ac67a5378d6d9ec, type: 2}
+      _text: Its a frog! No! Its a QUACKER!
+  _previewImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  _serverSidePrefab: {fileID: 0}
+  _clientSidePrefab: {fileID: 0}
+  _coinsCost: 10
+  _tier: 2
+  _battleStats:
+    _defensive:
+      _armorValue: -10
+      _armorType: {fileID: 11400000, guid: 1f7f4544d78d96840a4e5e89f75dfa20, type: 2}
+  _commonStats:
+    _dynamicStats:
+    - _stat: {fileID: 11400000, guid: 65142ab041530194a9dfa874f266f18c, type: 2}
+      _max: 10000
+      _min: 1
+      _regeneration: 0
+    - _stat: {fileID: 11400000, guid: b42064d8709de234e97f62130686504c, type: 2}
+      _max: 200
+      _min: 0
+      _regeneration: 50
+    _lethalDynamicStat: {fileID: 11400000, guid: 65142ab041530194a9dfa874f266f18c,
+      type: 2}
+    _visionRange: 5
+    _moveSpeed: 7
+    _rotationSpeed: 200
+    _acceleration: 1000
+  _defaultState: {fileID: 0}
+  _abilities: []
